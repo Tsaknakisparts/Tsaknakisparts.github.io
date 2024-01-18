@@ -103,6 +103,16 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	.w3-centered tr td{text-align:center}
+.w3-center{text-align:center!important}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
