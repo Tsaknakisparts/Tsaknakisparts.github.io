@@ -60,6 +60,17 @@ blockquote, q {
    display: table;
  }
 
+ .scroll-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
